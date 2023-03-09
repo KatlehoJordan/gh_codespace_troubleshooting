@@ -1,6 +1,7 @@
 {
 	"name": "gh_codespace_troubleshooting",
-	"dockerFile": "../Dockerfile",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"remoteUser": "root",
 }
