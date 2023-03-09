@@ -37,9 +37,12 @@ Before doing any of the steps below, clone this repository.
 ### Verifying `broken` branch *does not work* in GitHub Codespaces
 
 1. On the `broken` branch, open the repository in GitHub Codespaces in a browser.
-2. Observe that the Codespace is not created.
-3. Retrieve the logs from the Codespace creation process:
+2. Observe that the Codespace is not created, and a recovery container is created instead.
+3. Retrieve the logs from the Codespace-creation process:
 
 ```
-
+Failed to create container.
+Error: Command failed: docker-compose -f /var/lib/docker/codespacemount/workspace/gh_codespace_troubleshooting/docker-compose.yml -f /var/lib/docker/codespacemount/.persistedshare/docker-compose.codespaces.yml config
+Error Code: 1302
+Container creation failed.
 ```
