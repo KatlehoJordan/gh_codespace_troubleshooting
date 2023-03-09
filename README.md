@@ -4,7 +4,7 @@ This repository is meant to provide a minimal example for troubleshooing issues 
 
 ## Branches
 
-`main` - This branch contains a minimal example of a Codespaces configuration that works.
-`broken` - This branch contains a minimal example of a Codespaces configuration that does not work.
+- `main`: This branch contains a minimal example of a Codespaces configuration that works.
+- `broken`: This branch contains a minimal example of a Codespaces configuration that does not work.
 
 ## Steps to reproduce
