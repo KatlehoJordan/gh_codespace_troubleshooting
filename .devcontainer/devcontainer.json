@@ -1,0 +1,6 @@
+{
+	"name": "gh_codespace_troubleshooting",
+	"dockerFile": "../Dockerfile",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"remoteUser": "root",
+}
