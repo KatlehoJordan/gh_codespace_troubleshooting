@@ -20,8 +20,8 @@ Before doing any of the steps below, clone this repository.
 
 #### In GitHub Codespaces
 
-2. On the `main` branch, open the repository in GitHub Codespaces in a browser.
-3. From the terminal in the browser session, run `Rscript hello.R`
+1. On the `main` branch, open the repository in GitHub Codespaces in a browser.
+2. From the terminal in the browser session, run `Rscript hello.R`
 
 ### Verifying `broken` branch works locally
 
