@@ -1,11 +1,15 @@
 # GitHub Codespaces Troubleshooting
 
-This repository is meant to provide a minimal example for troubleshooing issues when trying to use GitHub Codespaces.
+This repository is meant to provide a minimal example for troubleshooting issues when trying to use GitHub Codespaces.
+
+This repository was created to support the bug-report and discussion [here](https://github.com/community/community/discussions/49590).
+
+Briefly, Codespaces successfully builds a codespace if the `devcontainer.json` instructs to build from a `Dockerfile`. However, if the `devcontainer.json` instructs to use a `docker-compose.yml`, Codespaces will not build even if that `docker-compose.yml` file is using the same exact `Dockerfile`.
 
 ## Branches
 
-- `main`: This branch contains a minimal example of a Codespaces configuration that works.
-- `broken`: This branch contains a minimal example of a Codespaces configuration that does not work.
+- `main`: This branch contains a minimal example of a Codespaces configuration that works (i.e., does not use `docker-compose.yml`).
+- `broken`: This branch contains a minimal example of a Codespaces configuration that does not work (i.e., uses `docker-compose.yml`).
 
 ## Steps to reproduce
 
