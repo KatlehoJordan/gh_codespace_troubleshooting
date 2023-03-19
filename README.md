@@ -10,6 +10,7 @@ Briefly, Codespaces successfully builds a codespace if the `devcontainer.json` i
 
 - `main`: This branch contains a minimal example of a Codespaces configuration that works (i.e., does not use `docker-compose.yml`).
 - `broken`: This branch contains a minimal example of a Codespaces configuration that does not work (i.e., uses `docker-compose.yml`).
+- `fixed`: This branch fixed the issue by updating the version specified in `docker-compose.yml` as tipped by the GitHub codespaces team [here](https://support.github.com/ticket/personal/0/2048489)
 
 ## Steps to reproduce
 
